@@ -16,6 +16,8 @@ This firmware is designed to control buggy, implementing various functionalities
 -   **Return to Initial State:** Pressing button RE8 again returns the buggy to the "Wait for start" state.
 
 ## Motor Control
+![image](https://github.com/ehsanfat/Embedded_Systems_2/assets/118344641/65d40298-33ef-4dcc-9ae5-88738acb87ee)
+
 
 -   Surge and yaw_rate signals are used to compute left_pwm and right_pwm signals.
 -   PWM signals are generated for motor control using Output Compare peripherals on pins RD1 to RD4.
